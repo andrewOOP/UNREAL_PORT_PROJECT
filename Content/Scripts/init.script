@@ -1,0 +1,102 @@
+_sprite(0,leon,distrust)
+_name(0,Leon Cheesewheel)
+_talk(0)
+Hey, um... this is a pretty dark room...
+_break
+
+_talk(self)
+Yeah... I don't like this at all...
+It doesn't seem safe...
+_break
+
+_sprite(0,leon,nervous)
+_talk(0)
+This is bad...
+_break
+
+Really bad...
+_break
+
+_talk(self)
+Now, hold on. Maybe this is just some kind of test room.
+_break
+
+_sprite(0,leon,wonder)
+_talk(0)
+A... a test room?
+_break
+
+_talk(self)
+Yeah!
+Maybe this is all testing for some bigger game!
+_break
+
+Maybe the developer just forgot to put in lights!
+_break
+
+_sprite(0,leon,confused)
+_talk(0)
+Yeah but... why are the floor and wall textures so hi-res?
+_break
+
+_talk(self)
+Um... well...
+_break
+
+_talk(0)
+It's obvious someone put some level of work into this room...
+_break
+
+And... If that's the case.......
+_break
+
+_sprite(0,leon,sad)
+Why did they use such creepy textures?!
+_break
+
+_talk(self)
+..........
+_break
+
+You.... you have a point...
+_break
+
+_talk(0)
+_sprite(0,leon,plead)
+HEY! DEVELOPER!
+_break
+
+IF YOU'RE JUST TESTING, AT LEAST CHANGE THE TEXTURES!
+_break
+
+_sprite(0,leon,think)
+................
+_break
+
+_talk(self)
+................
+_break
+
+I don't think it worked...
+_break
+
+_talk(0)
+_sprite(0,leon,mad)
+SSHHHH! Let me keep trying!
+_break
+
+_talk(self)
+O-okay...
+_break
+
+While you do that, I'm going to find a way out of here.
+_break
+
+_talk(0)
+_sprite(0,leon,distrust)
+Okay!
+_break
+
+_sprite(0,leon,plead)
+HEEEEYYYYYY!! DEVELOPERRRR!!!
+_break

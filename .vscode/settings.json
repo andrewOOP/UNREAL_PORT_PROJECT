@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"C:/Users/Andrew/Documents/Unreal Projects/program/.vs": true,
+		"C:/Users/Andrew/Documents/Unreal Projects/program/.vscode": true,
+		"C:/Users/Andrew/Documents/Unreal Projects/program/Content": true,
+		"C:/Users/Andrew/Documents/Unreal Projects/program/Intermediate": true,
+		"C:/Users/Andrew/Documents/Unreal Projects/program/Saved": true
+	}
+}

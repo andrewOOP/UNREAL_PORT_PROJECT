@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "program Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"program Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"program",
+				"Win32",
+				"Debug",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"program Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"program",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win32",
+				"Development",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win32",
+				"Development",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"program Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"program",
+				"Win32",
+				"Development",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"program Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"program",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win32",
+				"Test",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win32",
+				"Test",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"program Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"program",
+				"Win32",
+				"Test",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"program Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"program",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"program Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"program",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win64",
+				"Development",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win64",
+				"Development",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"program Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"program",
+				"Win64",
+				"Development",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"program Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"program",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win64",
+				"Test",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"Win64",
+				"Test",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"program Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"program",
+				"Win64",
+				"Test",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"program HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"program",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"program HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"program",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"HTML5",
+				"Development",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"HTML5",
+				"Development",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"program HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"program",
+				"HTML5",
+				"Development",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"program HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"program",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"HTML5",
+				"Test",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"program",
+				"HTML5",
+				"Test",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"program HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "program HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"program",
+				"HTML5",
+				"Test",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "programEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"programEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "programEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"programEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"programEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "programEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"programEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "programEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"programEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "programEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"programEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"programEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "programEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"programEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "programEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"programEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "programEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"programEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"programEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "programEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"programEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Andrew\\Documents\\Unreal Projects\\program\\program.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		}
+	]
+}
