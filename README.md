@@ -1,9 +1,9 @@
 # UNREAL_PORT_PROJECT
 
 ## Things I Didn't Port (because of time constraints)
-Moving the camera when selecting a person so it gets a better angle
-Making the text appear as if it was typed
-Sound effects and music
+* Moving the camera when selecting a person so it gets a better angle
+* Making the text appear as if it was typed
+* Sound effects and music
 
 ## Unity / Unreal Differences
 
