@@ -10,7 +10,7 @@
 Sprites
 --------------
 * Unity - Sprite is 2D by default
-* Unreal - Paper2D is 3D by default
+* Unreal - Paper2D is 3D by default (as in 2D sprites in a 3D world)
 
 Collision
 --------------
