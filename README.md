@@ -5,7 +5,7 @@
 * Making the text appear as if it was typed
 * Sound effects and music
 
-## Unity / Unreal Differences
+# Unity / Unreal Differences
 
 Sprites
 --------------
