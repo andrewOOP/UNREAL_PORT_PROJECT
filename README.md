@@ -31,3 +31,8 @@ External Libraries
 --------------
 * Unity - Not really anything. Only a few things have to be imported to extend a script
 * Unreal - Almost nothing is included. It's best practice to use forward declaration in the header file using "class someclass". In the cpp file, that's where you should include the headers of external classes like Paper2D.
+
+Code Editor
+--------------
+* Unity - MonoDevelop is best
+* Unreal - Must be Visual Studio or VS Code. Best option is Visual Studio with Visual Assist. Without Visual Assist, you will get a ton of false errors and no autocomplete of variable names or class name. Coding is a pain without it, so pay the $150.
